@@ -27,7 +27,7 @@ phases:
       # - command
 artifacts:
   files:
-     - target/*
+     - '**/*'
     # - location
   #discard-paths: yes
   #base-directory: location
