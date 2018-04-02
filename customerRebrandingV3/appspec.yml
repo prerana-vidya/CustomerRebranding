@@ -5,14 +5,14 @@ files:
     destination: /usr/share/tomcat7/webapps
 hooks:
   BeforeInstall:
-    - location: setup.sh
+    - location: Scripts/setup.sh
       timeout: 300
       runas: root
   ApplicationStart:
-    - location: start.sh
+    - location: Scripts/start.sh
       timeout: 300
       runas: root
   ApplicationStop:
-    - location: stop.sh
+    - location: Scripts/stop.sh
       timeout: 300
       runas: root
